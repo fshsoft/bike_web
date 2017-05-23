@@ -3,78 +3,85 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<title>{$sites.title}</title>
-    <meta name="keywords" content="">
+	<title>百宝单车</title>
+	<meta name="keywords" content="">
 	<meta name="description" content="">
+	<meta name="author" content="templatemo">
+	<!--
+    Medigo Template
+    http://www.templatemo.com/preview/templatemo_460_medigo
+    -->
+
+	<!-- Google Fonts -->
+	<!-- <link href="http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700itali" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,500,200,100,600" rel="stylesheet"> -->
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="__FRONT__/bootstrap/bootstrap.css">
 	<link rel="stylesheet" href="__FRONT__/css/misc.css">
 	<link rel="stylesheet" href="__FRONT__/css/orange-scheme.css">
-	
+
 	<!-- JavaScripts -->
 	<script src="__FRONT__/js/jquery-1.10.2.min.js"></script>
 	<script src="__FRONT__/js/jquery-migrate-1.2.1.min.js"></script>
 
 	<link rel="shortcut icon" href="__FRONT__/images/favicon.ico" type="image/x-icon" />
-<style>
-	.imgs{max-width: 100%;min-width:50%;max-height:50%;min-height:50%}
-</style>
+
 </head>
 <body>
-	<div class="responsive_menu">
-        <ul class="main_menu">
-            <li><a href="{:url('index/index')}">首页</a></li>
-            <li><a href="{:url('index/product')}">产品介绍</a>
-            </li>
-            <li><a href="{:url('index/download')}">下载APP</a>
-            </li>
-            <li><a href="{:url('index/about')}">关于我们</a></li>
-            <li><a href="{:url('index/contact')}">联系我们</a></li>
-        </ul> <!-- /.main_menu -->
-    </div> <!-- /.responsive_menu -->
+<div class="responsive_menu">
+	<ul class="main_menu">
+		<li><a href="{:url('index/index')}">首页</a></li>
+		<li><a href="{:url('index/product')}">产品介绍</a>
+		</li>
+		<li><a href="{:url('index/download')}">下载APP</a>
+		</li>
+		<li><a href="{:url('index/about')}">关于我们</a></li>
+		<li><a href="{:url('index/contact')}">联系我们</a></li>
+	</ul> <!-- /.main_menu -->
+</div> <!-- /.responsive_menu -->
 
-	<header class="site-header clearfix">
-		<div class="container">
+<header class="site-header clearfix">
+	<div class="container">
 
-			<div class="row">
+		<div class="row">
 
-				<div class="col-md-12">
+			<div class="col-md-12">
 
-					<div class="pull-left logo">
-						<a href="index.html">
-							<img src="__FRONT__/images/includes/logo.png"  alt="Medigo by templatemo" style="margin-top: 10px;">
+				<div class="pull-left logo">
+					<a href="index.html">
+						<img src="__FRONT__/images/logo.png" alt="Medigo by templatemo">
+					</a>
+				</div>	<!-- /.logo -->
+
+				<div class="main-navigation pull-right">
+
+					<nav class="main-nav visible-md visible-lg">
+						<ul class="sf-menu">
+							<li class="active"><a href="{:url('index/index')}">首页</a></li>
+							<li><a href="{:url('index/product')}">产品介绍</a>
+							</li>
+							<li><a href="{:url('index/download')}">下载APP</a>
+							</li>
+							<li><a href="{:url('index/about')}">关于我们</a></li>
+							<li><a href="{:url('index/contact')}">联系我们</a></li>
+						</ul> <!-- /.sf-menu -->
+					</nav> <!-- /.main-nav -->
+					<!-- This one in here is responsive menu for tablet and mobiles -->
+					<div class="responsive-navigation visible-sm visible-xs">
+						<a href="#nogo" class="menu-toggle-btn">
+							<i class="fa fa-bars"></i>
 						</a>
-					</div>	<!-- /.logo -->
 
-					<div class="main-navigation pull-right">
+					</div> <!-- /responsive_navigation -->
 
-						<nav class="main-nav visible-md visible-lg">
-							<ul class="sf-menu">
-								<li class="{$sites.dashboard}"><a href="{:url('index/index')}">首页</a></li>
-					            <li class="{$sites.product}"><a href="{:url('index/product')}">产品介绍</a>
-					            </li>
-					            <li class="{$sites.download}"><a href="{:url('index/download')}">下载APP</a>
-					            </li>
-					            <li class="{$sites.about}"><a href="{:url('index/about')}">关于我们</a></li>
-					            <li class="{$sites.contact}"><a href="{:url('index/contact')}">联系我们</a></li>
-							</ul> <!-- /.sf-menu -->
-						</nav> <!-- /.main-nav -->
+				</div> <!-- /.main-navigation -->
 
-						<!-- This one in here is responsive menu for tablet and mobiles -->
-					    <div class="responsive-navigation visible-sm visible-xs">
-					        <a href="#nogo" class="menu-toggle-btn" style="margin-top: 30px;">
-					            <i class="fa fa-bars"></i>
-					        </a>
-					    </div> <!-- /responsive_navigation -->
+			</div> <!-- /.col-md-12 -->
 
-					</div> <!-- /.main-navigation -->
+		</div> <!-- /.row -->
 
-				</div> <!-- /.col-md-12 -->
+	</div> <!-- /.container -->
+</header> <!-- /.site-header -->
 
-			</div> <!-- /.row -->
 
-		</div> <!-- /.container -->
-	</header> <!-- /.site-header -->
-
-	
